@@ -1,0 +1,20 @@
+{
+  "name": "completereact",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "react",
+    "yusuf"
+  ],
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}

@@ -1,0 +1,117 @@
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    color: #222222;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.Logo {
+    font-size: 25px;
+    color: #222222;
+}
+
+.Menu-Items {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.Menu-Items li {
+    cursor: pointer;
+    color: #333333;
+}
+
+.Menu-Items li:hover {
+    color: #007bff;
+}
+
+.Cart {
+    cursor: pointer;
+    font-weight: bold;
+    color: #222222;
+}
+
+
+
+/* Product Card */
+
+.Productcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+/* Product */
+
+.Product {
+    width: 280px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.Product:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Product image */
+.Product img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Product name */
+.Product h1 {
+    font-size: 22px;
+    color: #333;
+    margin: 15px 0 8px;
+}
+
+/* Rating */
+.Rating {
+    color: #777;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+/* Price */
+.Price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #16a34a;
+    margin: 12px 0;
+}
+
+/* Buy button */
+.BuyButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.BuyButton:hover {
+    background-color: #1d4ed8;
+}
